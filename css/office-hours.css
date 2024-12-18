@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+/* Header */
+.main-header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 1rem 0;
+}
+.main-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.main-nav ul li {
+    margin: 0 0.5rem;
+}
+.main-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s;
+}
+.main-nav ul li a.active,
+.main-nav ul li a:hover {
+    background: #e74c3c;
+    border-radius: 5px;
+}
+
+/* Office Hours Section */
+.office-hours-section {
+    padding: 3rem 0;
+    text-align: center;
+    background: #fff;
+}
+.office-hours-section h2 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+.office-hours-section p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #555;
+}
+.hours-list {
+    list-style: none;
+    padding: 0;
+    margin: 2rem auto;
+    max-width: 500px;
+    text-align: left;
+}
+.hours-list li {
+    font-size: 1.1rem;
+    padding: 0.5rem 0;
+    color: #333;
+    border-bottom: 1px solid #eee;
+}
+.hours-list li strong {
+    color: #2c3e50;
+}
+
+/* Footer */
+/* (same as in the previous pages) */
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    /* (same responsive adjustments as previous pages) */
+}
